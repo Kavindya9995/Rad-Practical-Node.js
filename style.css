@@ -1,0 +1,61 @@
+body{
+    padding: 50px;
+}
+
+.first, .second{
+    width: 50%;
+    height: 100%;
+}
+
+.first{
+    float: left;
+    flex-basis: 50%;
+}
+
+.second{
+    float: right;
+    flex-basis: 50%;
+    position: relative;
+}
+
+.beg{
+    /* margin-top: 5%; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-style: solid groove;
+    box-shadow: 5px;
+    
+}
+/* @media(max-width: 700px){
+    .beg{ 
+        flex-direction: column;
+    }
+} */
+
+#or{
+    padding: 0 50px 0;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.second{
+    flex:auto;
+}
+
+#btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(55, 55, 203);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+span{
+    color: red;
+    cursor: pointer;
+}
